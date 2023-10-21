@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+    
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    border: 10px solid darkgreen;
+    margin: 100px 300px;
+    padding: 0 0 50px 0;
+    background: orange;
+}
+
+
+#homescore,#guestscore {
+    width: 130px;
+    height: 110px;
+    border: 3px solid black;
+}
+
+
+.scorebox > h3 {
+    color: #EEE;
+    font-family: Verdana;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    background: #F94F6D;
+    padding: 0 5px 0 5px;
+}
+
+
+.scorebox > h2 {
+    padding: 15px 22px;
+    color: #F94F6D;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    background: gainsboro;
+}
+
+ 
+ div > button  {
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #111827;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 18px;
+    padding: 7px; 
+    margin: 0 2px 0 2px
+}
